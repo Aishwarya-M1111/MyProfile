@@ -1,0 +1,244 @@
+body {
+	background: linear-gradient(-45deg, #E8F3D6, #FCF9BE, #FFDCA9, #FAAB78);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.top-container{
+    
+    background-color: #EAFDFC;
+    position: relative;
+  }
+
+  <img src="CSS - My Site Images/mountain.png" alt="Mountain">
+  <hr>
+  <img src="CSS - My Site Images/computer.png" alt="PP">
+
+  As a full stack developer, I have experience building end-to-end web applications using a variety of technologies and programming languages. My expertise lies in both front-end and back-end development, and I'm well-versed in popular frameworks such as React, Angular, and Vue on the front-end, and Node.js, Django, and Ruby on Rails on the back-end.
+
+  I'm passionate about writing clean, efficient code that solves problems and delivers value to end-users. I'm also experienced in implementing responsive design principles, making sure that the web applications I build are accessible and user-friendly across a range of devices.
+  
+  In addition to my technical skills, I pride myself on being a strong communicator and collaborator. I believe that effective communication and teamwork are essential to successful software development, and I enjoy working closely with designers, product managers, and other developers to ensure that the applications we build meet business requirements and user needs.
+  
+  Take a look at my portfolio to see examples of my previous work, and feel free to contact me if you'd like to discuss potential 
+  
+
+
+
+
+
+  As a full stack developer, I am proficient in front-end development technologies such as HTML, CSS, and JavaScript.I also have experience with popular front-end frameworks like React and Node.js. I have experience building responsive and mobile-first websites that look great on any device.Overall, I have a deep understanding of front-end development principles and strive to build high-quality, user-friendly websites and applications.
+
+
+  <div class="skills">
+	<h2>My Skills.</h2>
+	<div class="skill-row">
+	  <img class="img1" src="CSS - My Site Images/chillies.png" alt="chilli">
+	  
+	 
+	</div>
+	<div class="skill-row">
+	  <img class="img2" src="CSS - My Site Images/computer.png" alt="Comp">
+	  <h3>Back-end Development Skills</h3>
+	  <p class="para2"> I also have expertise in back-end development technologies including Node.js, Express, and databases like MySQL and MongoDB. 
+		I have experience building RESTful APIs and implementing CRUD operations to manage data in a database. 
+		I am familiar with version control using Git and developing web applications with secure and authenticated user authentication.
+		Overall, I am passionate about developing scalable, maintainable, and secure back-end solutions that power robust web applications.</p>
+	 
+	</div>
+	<div class="skill-row">
+	  <img class="img2" src="CSS - My Site Images/computer.png" alt="Comp">
+	  <h3>Other programming Skills</h3>
+	  <p class="para3"></p>In addition to my expertise in full-stack web development,
+	   I am also proficient in programming languages such as C, Java, and Python.
+	  And I am able to apply my knowledge to a variety of programming challenges.</p>
+	</div>
+
+	<img class="img1" src="CSS - My Site Images/chillies.png" alt="chilli">
+	<img class="img2" src="CSS - My Site Images/computer.png" alt="Comp">
+
+
+	#feature .feature-box {
+		background-color: #f2f2f2; /* Set a background color */
+		border-radius: 10px; /* Set a border radius */
+		padding: 20px; /* Add some padding */
+		box-sizing: border-box; /* Include the padding and border in the element's total width */
+	  }
+	  #feature .row {
+		display: flex; /* Enable flexbox */
+		justify-content: space-between; /* Horizontally distribute boxes with equal spacing */
+		gap: 1px;
+	  }
+
+
+
+
+
+
+
+	  <section id="feature">
+        <div class="row">
+          <div class="column">
+            <div class="card-body feature-box col-lg-4">
+              <!--<i class="icon fa-solid fa-circle-check fa-4x"></i> <i class="icon fa-solid fa-bullseye fa-4x"></i><i class="icon fa-solid fa-heart fa-4x"></i>-->
+              <img class="img1 fa-solid fa-circle-check fa-4x" src="CSS - My Site Images/computer.png" alt="Comp">
+              <h3>Front-end Development Skills</h3>
+              <p>As a full stack developer, I am proficient in front-end development technologies such as HTML, CSS, and JavaScript.I also have experience with popular front-end framework like React.
+                    I have experience building responsive and mobile-first websites that look great on any device.Overall, 
+                    I have a deep understanding of front-end development principles and strive to build high-quality, user-friendly websites and applications.</p>
+              </div>
+          </div>
+          <div class="column">
+            <div class="card-body feature-box col-lg-4">
+          
+            <img class="img1 fa-solid fa-circle-check fa-4x" src="CSS - My Site Images/computer.png" alt="Comp">
+            <h3>Back-end Development Skills</h3>
+            <p> I also have expertise in back-end development technologies including Node.js, Express, and databases like MySQL and MongoDB. 
+            I have experience building RESTful APIs and implementing CRUD operations to manage data in a database. 
+            I am familiar with version control using Git and developing web applications with secure and authenticated user authentication.
+            Overall, I am passionate about developing scalable, maintainable, and secure back-end solutions that power robust web applications.</p>
+           
+            </div>
+          </div>
+          <div class="column">
+            <div class="card-body feature-box col-lg-4">
+            
+              <img class="img1 fa-solid fa-circle-check fa-4x" src="CSS - My Site Images/computer.png" alt="Comp">
+              <h3>Other programming Skills</h3>
+              <p>In addition to my expertise in full-stack web development,
+               I am also proficient in programming languages such as C, Java, and Python.
+              And I am able to apply my knowledge to a variety of programming challenges.</p>
+           </div>
+          </div>
+         
+        </div>
+      </section>
+
+
+
+	  .btn{
+		border-radius: 8;
+		background-image: linear-gradient(#11cdd4,#11999e );
+	  }
+	  .btn:hover{
+		background-image: linear-gradient(#30e3cb,#2bc4ad );
+	  }
+
+
+
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+	  .top-container{
+		margin-top: -50px;
+		
+		margin-right: -10px;
+		margin-left: -10px;
+		height: 40%;
+		background: linear-gradient(-180deg, #E8F3D6, #FCF9BE, #FFDCA9, #FAAB78);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+		height: 100vh;
+	  }
+	   @keyframes gradient {
+		0% {
+		  background-position: 0% 50%;
+		}
+		50% {
+		  background-position: 100% 50%;
+		}
+		100% {
+		  background-position: 0% 50%;
+		}
+	  }
+
+
+
+	  .top-container {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(-180deg, var(--color1), var(--color2), var(--color3), var(--color4));
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+		height: 100vh;
+	  }
+	  
+	  @keyframes gradient {
+		0% {
+		  background-position: 0% 50%;
+		}
+		50% {
+		  background-position: 100% 50%;
+		}
+		100% {
+		  background-position: 0% 50%;
+		}
+	  }
+
+bottom:
+	  padding-top: 500px;
+	  padding-left: 150px;
+	  padding-right: 100px;
+	  margin-top: 0px;
+	  margin-left: -10px;
+	  margin-right: -10px;
+	  margin-bottom: -20px;
+	  height: 50%;
+mid:
+padding-top: 800px;
+padding-left: 150px;
+padding-right: 100px;
+margin-top: 100px;
+margin-left: -10px;
+margin-right: -10px;
+
+height: 200%;
+
+top:
+margin-top: 50px;	
+margin-right: -10px;
+margin-left: -10px;
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Libre+Baskerville&family=Montserrat:wght@100;400;900&family=Oswald&family=Ubuntu&display=swap" rel="stylesheet">
+
+
+Lobster:
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Lobster+Two:ital@0;1&family=Montserrat:wght@100;400;900&family=Oswald&family=Ubuntu&display=swap" rel="stylesheet">
+'Lobster Two', cursive;
+
+card:#F8EDE3
+
+
+#FFE6E6,
+      #F2D1D1,
+      #DAEAF1,
+      #C6DCE4

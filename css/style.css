@@ -1,0 +1,240 @@
+h1{
+    
+    margin: 50px auto 0 auto;
+    padding-top: 150px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 5.5rem;
+    line-height: 1;
+    color: #0E8388;
+}
+
+h2{
+   font-family: 'Oswald', sans-serif;
+   font-weight: normal;
+   font-size: 2.5rem;
+   color: #0E8388;
+   margin-top: 40px;
+   margin-bottom: 30px;
+}
+h3{
+  font-family: 'Lato',sans-serif;
+  color: black;
+}
+ body{
+      background: linear-gradient(45deg,#2C3333,
+      #395B64,
+      #A5C9CA,
+      #E7F6F2);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      height: 200vh;
+     font-family: 'Lato',sans-serif;
+     font-weight: 700;
+     text-align: center;
+      
+   }
+   @keyframes gradient {
+		0% {
+		  background-position: 0% 50%;
+		}
+		50% {
+		  background-position: 100% 50%;
+		}
+		100% {
+		  background-position: 0% 50%;
+		}
+	  }
+.top-container{
+
+
+	
+}
+a{
+  color: black;
+}
+p{
+      
+}
+.middle-container{
+   padding-top: 50px;
+   
+   
+}
+   .profile{
+    border-radius: 25px;
+    background: #EAFDFC;
+    right: -30px;
+    padding : 30px;
+    width: 1000px;
+    font-weight: 700;
+    height: 550px;
+    margin-top: 50px;
+    margin-right: 100px; 
+    margin-left: 200px;
+    position: relative;
+    z-index: 2!important;
+  
+   }
+   .website{
+    padding-top: 150px;
+    height: 400px;
+    right :90px;
+    padding-left: 370px;
+   }
+   .img-web{
+    position: absolute;
+    top: 100px; /* adjust this value to create some space */
+    left: 0;
+    z-index: 0!important;
+   }
+   .skills{
+    border-radius: 25px;
+    
+    margin-top: 100px;
+    margin-right: 100px; 
+    margin-left: 200px;
+    width: 800px;
+    height: 1500px;
+    position: relative;
+   }
+
+ .skill-row{
+   margin: 100px auto 100px auto;
+   width: 40%;
+   text-align: left;
+   line-height: 2;
+ }
+ 
+ .card-deck {
+  display: flex;
+  flex-wrap: wrap; /* to allow the cards to wrap to a new row */
+}
+.contact-me{
+  padding-top: 60px;
+  font-weight: 700;
+  line-height: 2;
+  display: block;
+  text-align: center;
+  
+}
+
+.card {
+  border-radius: 30px; /* adjust as needed */
+  text-align: justify;
+  text-justify: inter-word;
+  display: inline-block;
+  width: 28%; /* adjust as needed */
+  background-color: #EAF6F6!important;
+  margin: 0 2%;
+  padding: 15px; 
+
+}
+
+.img1{
+  border-radius: 50%; /* Applies a circular border */
+  width: 100px; /* Adjust the size of the image as needed */
+  height: 100px;
+  display: block; /* Makes the image a block-level element */
+  margin: auto; /* Centers the image horizontally */
+}
+.bottom-container{
+   
+  padding-top: 100px;
+
+}
+.top-spark{
+  position: absolute;
+  padding-top: 60px;
+  right: 300px;
+  top: 50px;
+}
+ .bottom-spark{
+   position: relative;
+   padding-top: 10px;
+   right:350px;
+   top:10px;
+   bottom: 300px;
+ }
+.footer-link{
+  margin-top: 100px;
+}
+
+.img2{
+ 
+   width: 40%;
+   margin-right: 30px;
+   margin-top: 30px;
+}
+.img3{
+  
+  width: 40%;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.work-demo1{
+  background-color: #D6EFED;
+  height: 700px;
+  margin-top: 100px;
+  text-align: center;
+}
+.work-demo2{
+  background-color: #D6EFED;
+  height: 700px;
+  margin-top: 100px;
+  text-align: center;
+}
+.work-para1{
+  font-size: 5.5rem;
+}
+.view1{
+  margin-top: 20px;
+}
+
+#my-image1 {
+  transition: opacity 6s;
+  opacity: 1;
+}
+#my-image1.hidden {
+  opacity: 0;
+}
+#my-image1.show {
+  opacity: 1;
+}
+#my-image2 {
+  transition: opacity 6s;
+  opacity: 1;
+}
+#my-image2.hidden {
+  opacity: 0;
+}
+#my-image2.show {
+  opacity: 1;
+}
+
+
+.my-image{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+#my-image3 {
+  transition: opacity 6s;
+  opacity: 1;
+}
+#my-image3.hidden {
+  opacity: 0;
+}
+#my-image3.show {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
