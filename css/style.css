@@ -1,6 +1,5 @@
 h1{
-    
-    margin: 50px auto 0 auto;
+    top:8%;
     padding-top: 150px;
     font-family: 'Lobster Two', cursive;
     font-size: 5.5rem;
@@ -19,6 +18,9 @@ h2{
 h3{
   font-family: 'Lato',sans-serif;
   color: black;
+}
+.heading{
+  padding-top: 8%;
 }
  body{
       background: linear-gradient(45deg,#2C3333,
@@ -44,42 +46,62 @@ h3{
 		  background-position: 0% 50%;
 		}
 	  }
-.top-container{
 
-
-	
-}
 a{
   color: black;
 }
-p{
-      
-}
 .middle-container{
-   padding-top: 50px;
-   
-   
-}
-   .profile{
+   padding-top: 50px; 
+}#profile{
     border-radius: 25px;
     background: #EAFDFC;
-    right: -30px;
-    padding : 30px;
-    width: 1000px;
+    right: 10%;
     font-weight: 700;
     height: 550px;
-    margin-top: 50px;
-    margin-right: 100px; 
-    margin-left: 400px;
     position: relative;
-   }
-   .website{
-    padding-top: 150px;
-    height: 400px;
-    right :90px;
-    padding-left: 370px;
-   }
+}
+   
+ .website{
+  max-width: 30%;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 35%;
   
+  padding-top: 15%;
+ }
+
+/* Mobile devices */
+@media (max-width: 480px) {
+.website{
+  padding-top: 60%;
+}
+}
+
+/* Tablet devices */
+@media (max-width: 768px) {
+.website{
+  padding-top: 70%;
+}
+}
+
+/* Desktop devices */
+@media (min-width: 992px) {
+.website{
+  padding-top: 20%;
+}
+}
+/* Large desktop devices */
+@media (min-width: 1200px) {
+.website{
+  padding-top: 15%;
+}
+}
+   .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+   
    .skills{
     border-radius: 25px;
     
@@ -97,11 +119,6 @@ p{
    text-align: left;
    line-height: 2;
  }
-.img-web{
-    position: absolute;
-    top: 100px; /* adjust this value to create some space */
-    left: 0;
-   }
  
  .card-deck {
   display: flex;
@@ -117,20 +134,20 @@ p{
 }
 
 .card {
-  border-radius: 30px; /* adjust as needed */
+  border-radius: 30px; 
   text-align: justify;
   text-justify: inter-word;
   display: inline-block;
-  width: 28%; /* adjust as needed */
+  width: 28%; 
   background-color: #EAF6F6!important;
   margin: 0 2%;
   padding: 15px; 
-
+  position: relative;
 }
 
 .img1{
-  border-radius: 50%; /* Applies a circular border */
-  width: 100px; /* Adjust the size of the image as needed */
+  border-radius: 50%; /* Applies circular border */
+  width: 100px; 
   height: 100px;
   display: block; /* Makes the image a block-level element */
   margin: auto; /* Centers the image horizontally */
@@ -140,19 +157,17 @@ p{
   padding-top: 100px;
 
 }
-.top-spark{
+.top-cloud{
   position: relative;
-  padding-top: 100px;
-padding-left: 1250px;
+  padding-top: 4%;
+  padding-left: 85%;
   right: 300px;
   top: 50px;
 }
- .bottom-spark{
-   position: relative;
-   padding-top: 10px;
-   right:350px;
-   top:10px;
-   bottom: 300px;
+ .bottom-cloud{
+  padding-bottom: 50%;
+  padding-left: 15%;
+   
  }
 .footer-link{
   margin-top: 100px;
@@ -226,6 +241,18 @@ padding-left: 1250px;
 #my-image3.show {
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
